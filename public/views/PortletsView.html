@@ -1,0 +1,62 @@
+
+<div class='portlet-container'>
+</div>
+
+   
+<!-- Modal box for portlet settings popup -->
+<div id="portlet-settings" class="modal hide fade in" style="display: none;">
+    <div class="modal-header">
+        <h3>Portlet Settings</h3>
+    </div>
+    <div class="modal-body">      
+      <div class="control-group">
+         <label class="control-label" for="inputTitle">Title</label>
+         <div class="controls">
+           <input type="text" id="inputTitle" placeholder="Title">
+         </div>
+       </div>
+       <div class="control-group">
+         <label class="control-label" for="inputContent">Content</label>
+         <div class="controls">
+           <textarea id="inputContent" placeholder="Content"></textarea>
+         </div>
+       </div>
+       <div class="control-group">
+         <label class="control-label" for="inputBackground">Background Color</label>
+         <div class="controls">
+           <input type="color" id="inputBackground" placeholder="Background Colour"></textarea>
+         </div>
+       </div>
+       <div class="control-group">
+         <label class="control-label" for="inputForeground">Foreground Color</label>
+         <div class="controls">
+           <input type="color" id="inputForeground" placeholder="Foreground Colour"></textarea>
+         </div>
+       </div>
+    </div>
+    <div class="modal-footer">
+        <a id="save-modal" href="#" class="btn btn-primary" data-dismiss="modal">Save</a>
+        <a id="cancel-modal" href="#" class="btn" data-dismiss="modal">Cancel</a>
+    </div>
+</div>
+
+<script>
+$('.portlet-container').holseePortlets({
+  maxPortlets: 6,
+  portlets: [{
+    title: 'Portlet Foo',
+    column: 0,
+    content: 'Portlet Foo Body'
+  },{
+    title: 'Portlet Bar',
+    column: 1,
+    content: 'Portlet Bar Body'
+  },{
+    title: 'Portlet Fuzz',
+    column: 2,
+    content: 'Portlet Fuzz Body'
+  }]
+});
+</script>
+
+

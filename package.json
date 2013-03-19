@@ -1,11 +1,14 @@
 {
-  "name": "hi",
-  "version": "0.0.1",
-  "dependencies": {
-    "express": "2.5.x"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  }
+    "name": "holsee-portlets",
+    "description": "test harness for creating a portlet library",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+      "express": "3.x"
+    },
+    "engines": {
+        "node": "0.9.12",
+        "npm": "1.2.14"
+    }
 }
+  

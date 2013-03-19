@@ -1,0 +1,88 @@
+.brand {
+    font-family: 'helvetica';
+}
+
+a.plain:link {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:active {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a.plain:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.status-bar {
+    height: 60px;
+}
+
+.about-icon {
+    float: left;
+    margin-right: 12px;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    color: #999;
+    border-top: solid 1px #ddd;
+}
+
+.footer > p {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+h5 {
+    width: 100%;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.thumbnail {
+    min-width: 260px;
+}
+
+.thumbnails li {
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+}
+
+legend {
+    font-family: 'helvetica';
+}
+
+.home-hero {
+    font-family: "helvetica";
+    font-size: 36;
+    color: dark-gray;
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -19px;
+    padding: 180px;
+    text-align : center;
+    text-shadow: 1px 1px 1px gray;
+}
+
+@media only screen and ( max-width : 1000px ) {
+    .home-hero {
+        padding:100px;
+    }
+}
+
+@media only screen and ( max-width : 480px ) {
+    .home-hero {
+        padding:32px;
+    }
+}

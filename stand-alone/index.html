@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link href="../public/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <style>
+      body {
+          padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+  </style>
+  <link href="../public/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+  <link href="../public/css/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+  <link href="../public/css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="../public/css/holsee.portlets.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  
+  <!-- Portlet Area -->
+  <div class="container">
+    <p>
+      For full demo, download <a href="http://nodejs.org/">node.js</a> and run '<em>npm install</em>' then '<em>node server</em>' then goto '<a href="http://localhost:3000/">http://localhost:3000/</a>'.
+    </p>
+  
+    <div class='portlet-container'>
+    </div>
+  </div>
+  <!-- Modal box for portlet settings popup -->
+  
+  <div id="portlet-settings" class="modal hide fade in" style="display: none;">
+      <div class="modal-header">
+          <h3>Portlet Settings</h3>
+      </div>
+      <div class="modal-body">      
+        <div class="control-group">
+           <label class="control-label" for="inputTitle">Title</label>
+           <div class="controls">
+             <input type="text" id="inputTitle" placeholder="Title">
+           </div>
+         </div>
+         <div class="control-group">
+           <label class="control-label" for="inputContent">Content</label>
+           <div class="controls">
+             <textarea id="inputContent" placeholder="Content"></textarea>
+           </div>
+         </div>
+         <div class="control-group">
+           <label class="control-label" for="inputBackground">Background Color</label>
+           <div class="controls">
+             <input type="text" id="inputBackground" placeholder="Background Colour"></textarea>
+           </div>
+         </div>
+         <div class="control-group">
+           <label class="control-label" for="inputForeground">Foreground Color</label>
+           <div class="controls">
+             <input type="text" id="inputForeground" placeholder="Foreground Colour"></textarea>
+           </div>
+         </div>
+      </div>
+      <div class="modal-footer">
+          <a id="save-modal" href="#" class="btn btn-primary" data-dismiss="modal">Save</a>
+          <a id="cancel-modal" href="#" class="btn" data-dismiss="modal">Cancel</a>
+      </div>
+  </div>
+  
+  <!-- Scripts -->
+
+  <script src="../public/lib/jquery-1.9.1.min.js"></script>
+  <script src="../public/lib/jquery-ui.min.js"></script>
+  <script src="../public/lib/bootstrap.min.js"></script>
+  <script src="../public/js/jquery.holsee.portlets.js"></script>
+  
+  <script>
+  $(function(){
+    $('.portlet-container').holseePortlets();
+  });
+  </script>
+  
+</body>
+</html>
+

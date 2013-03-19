@@ -1,1 +1,1 @@
-web: node hi.js
+web: node server.js

@@ -1,0 +1,132 @@
+
+/* Portlets */
+.portlet-controls {
+  margin-bottom:10px;  
+}
+
+.box {
+    margin-bottom:10px;
+}
+
+.box-placeholder {
+  margin-bottom:10px;
+  background-color: lightgray;  
+}
+
+.box h4.box-header {
+    size:10px;
+    padding: 7px 7px;
+    margin: 0;
+    list-style: none;
+    cursor:move;
+}
+
+.box-content {
+    padding:10px;
+    background-color: #ffffff;
+    
+    border-left:1px solid #DDD;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+    
+    /* This can be moved out to the classes which are resp for rounding */
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.box-container-toggle {
+    background-color: #ffffff;
+}
+
+.box-btn {
+    float:right;
+    margin-left:2px;
+    margin-right:2px;
+    height: 14px;
+    width: 14px;
+    text-decoration:none;
+    display: block;
+    float: right;
+    overflow: hidden;
+    background-position:center;
+    cursor:pointer;
+}
+
+.box-btn [class^="icon-"], .box-btn [class*=" icon-"] {
+    vertical-align:top;
+}
+
+.box-container-closed {
+    display:none;
+}
+
+.box h4.box-header {
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: inset 0 1px 0 #ffffff;
+    -moz-box-shadow: inset 0 1px 0 #ffffff;
+    box-shadow: inset 0 1px 0 #ffffff;
+    
+    /* Matching the Twitter BS Theme */
+    color: #777777;
+    font-size: 20px;
+    font-weight: 200;
+    
+    background-color: #fafafa;
+    background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+    background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    background-repeat: repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+    *zoom: 1;
+    
+}
+
+.box .box-container-toggle {
+
+}
+
+.box-btn, .box [class^="icon-"], .box [class*=" icon-"]  {
+    margin-top: 2px;
+}
+
+/* Round Corners and text effects */
+
+.round-all {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.round-top {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.round-bottom {
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-radius: 0 0 5px 5px;
+}
+.round-left {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-radius: 5px 0 0 5px;
+}
+.round-right {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-radius:0 5px 5px 0;
+}
