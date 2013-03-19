@@ -1,4 +1,4 @@
-## Demo by Steven Holdsworth (@holsee)
+## Portlets Demo using local storage by Steven Holdsworth (@holsee)
 
 3rd Party Code:
 * Twitter Bootstrap
@@ -8,7 +8,9 @@
 * jQuery & jQuery UI (sortable)
 * Jasmine BDD lib
 
-## Use :
+### live demo
+
+http://holseeui.herokuapp.com/#portlets
 
 ### stand-alone 
 * any modern browser open **stand-alone/index.html**.
