@@ -1,14 +1,14 @@
 ## Portlets Demo using local storage by Steven Holdsworth (@holsee)
 
-3rd Party Code:
-* Twitter Bootstrap
-* Backbone.js
-* Node.js
-* Express
-* jQuery & jQuery UI (sortable)
-* Jasmine BDD lib
+This was created initially as a demo.  JavaScript portlet UI implemenation as a jQuery Plug-in which stores state in localstorage.  
 
-### live demo
+## Dependencies
+
+* jQuery
+* jQuery UI (Sortable)
+* Twitter Bootstrap (responsive css & glyphs)
+
+## DEMO
 
 http://holseeui.herokuapp.com/#portlets
 
@@ -23,3 +23,12 @@ http://holseeui.herokuapp.com/#portlets
 
 ### tests / specs
 * Open **tests/spec-runner.html**
+
+## 3rd Party Code (for examples):
+
+* Twitter Bootstrap
+* Backbone.js
+* Node.js
+* Express
+* jQuery & jQuery UI (sortable)
+* Jasmine BDD lib
