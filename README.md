@@ -2,7 +2,11 @@
 
 This was created initially as a demo.  JavaScript portlet UI implemenation as a jQuery Plug-in which stores state in localstorage.  
 
-The code is still pretty rough and needs to be refactored a polished.  The goal is to restructure the directory, remove any dependencies on twitter bootstrap (rather take the form of a twitter boostrap compatible control) and also remove the depenency on jQuery sortable in favor of an approach that allowed multi column widgets/portlets. See: http://holsee.com/portlets-with-localstorage/
+The code is still pretty rough and needs to be refactored, specs implemented fully & polished.  
+
+My goal is to restructure the directory, remove any dependencies on twitter bootstrap (rather take the form of a twitter boostrap compatible control) and also remove the depenency on jQuery sortable in favor of an approach that allows multi-column widgets/portlets. 
+
+See: http://holsee.com/portlets-with-localstorage/
 
 ## Dependencies
 
