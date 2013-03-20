@@ -36,7 +36,7 @@ http://holseeui.herokuapp.com/#portlets
 * Jasmine BDD lib
 
 
-License Notes
+## License Notes
 
 All my* code is MIT license, so go nuts with one condition, that you rename the files and the plug-in from 'holsee' to whatever you want.
 
