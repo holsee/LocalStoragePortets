@@ -40,4 +40,4 @@ License Notes
 
 All my* code is MIT license, so go nuts with one condition, that you rename the files and the plug-in from 'holsee' to whatever you want.
 
-* Code which I wrote. 3rd Party libs and dependencies have their own license.
+\* Code which I wrote. 3rd Party libs and dependencies have their own license.
