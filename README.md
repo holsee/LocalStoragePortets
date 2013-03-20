@@ -2,6 +2,8 @@
 
 This was created initially as a demo.  JavaScript portlet UI implemenation as a jQuery Plug-in which stores state in localstorage.  
 
+The code is still pretty rough and needs to be refactored a polished.  The goal is to restructure the directory, remove any dependencies on twitter bootstrap (rather take the form of a twitter boostrap compatible control) and also remove the depenency on jQuery sortable in favor of an approach that allowed multi column widgets/portlets. See: http://holsee.com/portlets-with-localstorage/
+
 ## Dependencies
 
 * jQuery
@@ -24,7 +26,7 @@ http://holseeui.herokuapp.com/#portlets
 ### tests / specs
 * Open **tests/spec-runner.html**
 
-## 3rd Party Code (for examples):
+## 3rd Party Code (used in example app):
 
 * Twitter Bootstrap
 * Backbone.js
@@ -32,3 +34,10 @@ http://holseeui.herokuapp.com/#portlets
 * Express
 * jQuery & jQuery UI (sortable)
 * Jasmine BDD lib
+
+
+License Notes
+
+All my* code is MIT license, so go nuts with one condition, that you rename the files and the plug-in from 'holsee' to whatever you want.
+
+* Code which I wrote. 3rd Party libs and dependencies have their own license.
