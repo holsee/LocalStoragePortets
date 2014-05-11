@@ -1,4 +1,4 @@
-## Portlets Demo using local storage by Steven Holdsworth (@holsee)
+## Portlets Demo using Local Storage
 
 This was created initially as a demo.  JavaScript portlet UI implemenation as a jQuery Plug-in which stores state in localstorage.  
 
@@ -8,29 +8,29 @@ My goal is to restructure the directory, remove any dependencies on twitter boot
 
 See: http://holsee.com/portlets-with-localstorage/
 
-## Dependencies
+### Dependencies
 
 * jQuery
 * jQuery UI (Sortable)
 * Twitter Bootstrap (responsive css & glyphs)
 
-## DEMO
+### DEMO
 
 http://holseeui.herokuapp.com/#portlets
 
-### stand-alone 
+#### stand-alone 
 * any modern browser open **stand-alone/index.html**.
 
-### node server host 
+#### run with node
 * install node.js 
 * **npm install** 
 * **node server**. 
 * Open **http://localhost:3000**.
 
-### tests / specs
+#### tests / specs
 * Open **tests/spec-runner.html**
 
-## 3rd Party Code (used in example app):
+### 3rd Party Code (used in example app):
 
 * Twitter Bootstrap
 * Backbone.js
